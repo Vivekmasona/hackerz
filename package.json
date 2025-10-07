@@ -1,0 +1,32 @@
+{
+  "name": "allrounder-media-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to extract audio, video, images and CDN URLs from any webpage using headless Chrome.",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^2.1.0",
+    "puppeteer-core": "^21.3.1",
+    "telegraf": "^4.20.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "puppeteer",
+    "chromium",
+    "scraper",
+    "media",
+    "audio",
+    "video",
+    "image",
+    "cdn"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
